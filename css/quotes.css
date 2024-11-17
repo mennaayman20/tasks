@@ -1,0 +1,15 @@
+
+
+.btn{
+    height: 100px;
+    background-color: rgba(17, 17, 24, 0.568);
+}
+.btn:hover{
+    background-color: rgba(74, 174, 187, 0.463);
+ 
+}
+
+
+h1{
+    font-family: Impact;
+}
