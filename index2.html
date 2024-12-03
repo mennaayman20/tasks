@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Link to Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+
+
+    <div class="container m-auto text-center w-50 p-4 my-5 shadow">
+        
+        <h1 class="text-info">smart signup system</h1>
+        
+        <input type="text" class=" input form-control my-4"placeholder ="enter your name" id="name">
+        <input type="email" class="input form-control my-4" placeholder="enter your mail" id="mail">
+        <input type="password" class="input form-control my-4" placeholder="enter your password" id="pass">
+        
+        <p class="text-success d-none " id="suc">SUCSESS</p>
+        <p class="text-danger d-none" id="error">ERROR</p>
+        
+        
+        <p id="msg"class=" text-danger d-none" >All inputs is required</p>
+        <p id="msg2" class="text-danger d-none">Error: Email already exists!</p>
+        <p id="msg3" class="text-success d-none">Sign-Up Successful!</p>
+        <button id="signUp"class="btn btn-outline-info w-100 " >sign up</button>
+        
+        <p class="my-4 text-white">Don't have an account? 
+           <a href="index.html" class="text-white">Sign in</a>
+        </p>
+        </div>
+    <script src="js/signup.js"></script>
+
+
+
+
+
+
+    
+
+
+</body>
+</html>

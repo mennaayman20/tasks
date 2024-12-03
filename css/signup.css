@@ -1,0 +1,13 @@
+body{
+    background-color: #24353f;
+}
+.container{
+    background-color: #24353ffa;
+}
+.input{
+    background-color: transparent !important;
+ 
+}
+.input::placeholder{
+    color:rgb(154, 153, 153);
+}
